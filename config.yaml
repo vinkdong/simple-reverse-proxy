@@ -1,0 +1,11 @@
+server:
+- name: http
+  bind_port: 8900
+  local_port: 443
+  local_domain: www.github.com
+  tls: true
+- name: manager
+  bind_port: 3910
+  local_port: 80
+  local_domain: easyjava.org
+  tls: false
